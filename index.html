@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Handyman Services</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Handyman Services</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#appointments">Appointments</a></li>
+        <li><a href="#payment">Payment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <!-- Include a list of services offered -->
+    </section>
+
+    <section id="appointments">
+      <h2>Schedule an Appointment</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section id="payment">
+      <h2>Payment Options</h2>
+      <p>Please select your preferred payment method:</p>
+      <div class="payment-methods">
+        <label>
+          <input type="radio" name="payment" value="visa" required> Visa
+        </label>
+        <label>
+          <input type="radio" name="payment" value="mastercard" required> Mastercard
+        </label>
+        <label>
+          <input type="radio" name="payment" value="cash-app" required> Cash App
+        </label>
+        <label>
+          <input type="radio" name="payment" value="venmo" required> Venmo
+        </label>
+        <label>
+          <input type="radio" name="payment" value="zelle" required> Zelle
+        </label>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Handyman Services. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
